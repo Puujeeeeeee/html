@@ -28,7 +28,7 @@ function Skilss() {
               alt=""
             />{" "}
             <img
-              className="flex flex-col justify-center items-center gap-2"
+              className="flex flex-coll justify-center items-center gap-2"
               src="icon-react.png"
               alt=""
             />
