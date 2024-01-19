@@ -3,7 +3,7 @@ function Hero() {
     <div className="flex gap-12 flex-wrap py-0 px-20">
       <div className="flex max-w-3xl flex-col justify-center gap-12 items-start">
         <div className=" gap-6">
-          <h1 className="text-6xl font-bold">Hi, I’m Sagar 👋</h1>
+          <h1 className="text-6xl font-bold">Hi, I’m Puujee 👋</h1>
           <p className="text-base leading-6 text-gray-500">
             I'm a full stack developer (React.js & Node.js) with a focus on
             creating (and occasionally designing) exceptional digital

@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="About flex justify-between py-24 px-20 ">
+    <div className="About flex justify-between py-24 px-20 bg-gray-100 ">
       <div className="Container flex py-0 px-8 items-center gap-12 ">
         <div className=" Row flex flex-col items-start gap-4">
           <div className="Roww flex flex-col justify-center items-center"></div>
