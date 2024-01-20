@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="flex gap-12 flex-wrap py-0 px-20">
+    <div className="flex gap-12 flex-wrap py-20 px-20 max-md:p-10 ">
       <div className="flex max-w-3xl flex-col justify-center gap-12 items-start">
         <div className=" gap-6">
           <h1 className="text-6xl font-bold">Hi, I’m Puujee 👋</h1>
@@ -32,7 +32,7 @@ function Hero() {
         </div>
       </div>
       <div className="flex min-w-96 flex-col justify-center items-end">
-        <img src="Pic.png" alt="" />
+        <img src="sara.png" alt="" />
       </div>
     </div>
   );

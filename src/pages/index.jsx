@@ -4,16 +4,20 @@ import About from "@/component/About";
 import Skilss from "@/component/Skilss";
 import Experience from "@/component/Experience";
 import Work from "@/component/Work";
+import Contact from "@/component/GetInTouch";
+import Footer from "@/component/Footer";
 export default function Home() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center min-md:[320px]:items-center ">
       <div className="w-[1440px]">
-        <Head></Head>
+        {/* <Head></Head> */}
         <Hero></Hero>
-        <About></About>
+        {/* <About></About>
         <Skilss></Skilss>
         <Experience></Experience>
         <Work></Work>
+        <Contact></Contact>
+        <Footer></Footer> */}
       </div>
     </div>
   );

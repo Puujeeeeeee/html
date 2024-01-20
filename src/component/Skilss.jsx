@@ -1,23 +1,23 @@
 function Skills() {
   const skillsData = [
-    { src: "icon-express.png", alt: "Express " },
-    { src: "icon-javascript.png", alt: "JavaScript" },
-    { src: "icon-nextjs.png", alt: "Next.js" },
-    { src: "icon-react.png", alt: "React" },
-    { src: "icon-typescript.png", alt: "TypeScript" },
-    { src: "icon-nodejs.png", alt: "Node.js" },
-    { src: "icon-typescript.png", alt: "TypeScript" },
-    { src: "icon-react.png", alt: "React" },
+    { src: "icon-express.png", text: "Express " },
+    { src: "icon-javascript.png", text: "JavaScript" },
+    { src: "icon-nextjs.png", text: "Next.js" },
+    { src: "icon-react.png", text: "React" },
+    { src: "icon-typescript.png", text: "TypeScript" },
+    { src: "icon-nodejs.png", text: "Node.js" },
+    { src: "icon-typescript.png", text: "TypeScript" },
+    { src: "icon-react.png", text: "React" },
   ];
   const SkillData = [
-    { src: "icon-express.png", alt: "Express" },
-    { src: "icon-javascript.png", alt: "JavaScript" },
-    { src: "icon-nextjs.png", alt: "Next.js" },
-    { src: "icon-react.png", alt: "React" },
-    { src: "icon-typescript.png", alt: "TypeScript" },
-    { src: "icon-nodejs.png", alt: "Node.js" },
-    { src: "icon-react.png", alt: "React" },
-    { src: "icon-typescript.png", alt: "TypeScript" },
+    { src: "icon-express.png", text: "Express" },
+    { src: "icon-javascript.png", text: "JavaScript" },
+    { src: "icon-nextjs.png", text: "Next.js" },
+    { src: "icon-react.png", text: "React" },
+    { src: "icon-typescript.png", text: "TypeScript" },
+    { src: "icon-nodejs.png", text: "Node.js" },
+    { src: "icon-react.png", text: "React" },
+    { src: "icon-typescript.png", text: "TypeScript" },
   ];
 
   return (
@@ -38,17 +38,17 @@ function Skills() {
                 key={i}
                 className="flex flex-col justify-center items-center gap-2"
                 src={skill.src}
-                alt={skill.alt}
+                text={skill.text}
               />
             ))}
           </div>
           <div className="flex justify-between items-center gap-16">
-            {SkillData.map((skill, i) => (
+            {SkillData.map((Skills, i) => (
               <img
                 key={i}
                 className="flex flex-col justify-center items-center gap-2"
-                src={skill.src}
-                alt={skill.alt}
+                src={Skills.src}
+                text={Skills.text}
               />
             ))}
           </div>

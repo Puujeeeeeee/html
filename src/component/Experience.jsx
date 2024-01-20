@@ -1,15 +1,18 @@
 function Experience() {
   return (
     <div className="Experience py-24 px-20 flex-col justify-center items-center  bg-gray-100">
-      <div className="flex  px-8 py-0  flex-col justify-center items-center gap-12 bg-rose-700 self-stretch mb-8">
-        <div className="flex-col items-start bg-blue-800 gap-12">
-          <div className="flex flex-col justfify-center items-center ">
-            <p className="text-xl">
+      <div className="flex  px-8 py-0  flex-col justify-center items-center gap-12  self-stretch mb-8">
+        <div className="flex-col items-start  gap-12">
+          <div className="flex flex-col justfify-center items-center my-10 ">
+            <p
+              className="text-xl font-normal
+            "
+            >
               Here is a quick summary of my most recent experiences:
             </p>
           </div>
-          <div className="flex w-[896px] p-8 flex-col items-start bg-slate-50 rounded-xl shadow-xl">
-            <div className="flex items-start gap-20">
+          <div className="flex w-[896px] p-8 flex-col items-start bg-slate-50 rounded-xl  my-10 shadow-xl">
+            <div className="flex items-start gap-20 ">
               <div className="flex flex-col items-start gap-3">
                 <img src="logo-upwork.svg" alt="" />
               </div>
@@ -34,7 +37,7 @@ function Experience() {
             </div>
           </div>
           {/* 😇 */}
-          <div className="flex w-[896px] p-8 flex-col rounded-xl items-start bg-slate-50 shadow-xl">
+          <div className="flex w-[896px] p-8 flex-col rounded-xl items-start  my-10 bg-slate-50 shadow-xl">
             <div className="flex items-start gap-20">
               <div className="flex flex-col items-start gap-3">
                 <img src="logo-upwork.svg" alt="" />
