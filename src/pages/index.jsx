@@ -8,16 +8,16 @@ import Contact from "@/component/GetInTouch";
 import Footer from "@/component/Footer";
 export default function Home() {
   return (
-    <div className="flex flex-col items-center min-md:[320px]:items-center ">
-      <div className="w-[1440px]">
-        {/* <Head></Head> */}
+    <div className="flex flex-col items-center ">
+      <div className="w-[1440px] min-w-md:[320px]:items-center ">
+        <Head></Head>
         <Hero></Hero>
-        {/* <About></About>
+        <About></About>
         <Skilss></Skilss>
         <Experience></Experience>
         <Work></Work>
         <Contact></Contact>
-        <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     </div>
   );
