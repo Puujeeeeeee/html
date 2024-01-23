@@ -14,12 +14,12 @@ function Contact() {
         <div className="flex flex-col justify-center items-center gap-4 ">
           <div className="flex justify-center items-center gap-5 ">
             <img src="ssms.svg" alt="" />
-            <p className="text-3xl">reachsagarshah@gmail.com</p>
+            <p className="text-3xl">prevsambuub@gmail.com</p>
             <img src="copy.svg" alt="" />
           </div>
           <div className="flex justify-center items-center gap-5">
             <img src="cal.svg" alt="" />
-            <p className="text-3xl">+91 8980500565</p>
+            <p className="text-3xl">+976 95129336</p>
             <img src="copy.svg" alt="" />
           </div>
         </div>

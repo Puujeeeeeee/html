@@ -20,8 +20,8 @@ function Skills() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-12 px-6 md:px-20">
-      <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col justify-center items-center py-12 px-6 max-md:px-16">
+      <div className="flex flex-col items-center gap-8 ">
         <Fiskill></Fiskill>
         <div className="flex flex-col items-start gap-4">
           <h2 className="text-2xl font-normal leading-7">

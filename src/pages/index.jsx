@@ -20,16 +20,17 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="max-w-[1440px]">
-        <button onClick={() => handleClick(aboutRef)}>{About}</button>
+    <div className="flex flex-col items-center max-md:items-center max-md:justify-center">
+      <div className="max-w-[1440px] min-h-[300px]">
+        <button onClick={() => handleClick(aboutRef)}></button>
         <button onClick={() => handleClick(skillsRef)}></button>
         <button onClick={() => handleClick(skillsRef)}></button>
+        <button onClick={() => handleClick(skillsRef)}></button>
+        <Head></Head>
 
-        <button onClick={() => handleClick(skillsRef)}></button>
-        <Head />
         <Hero />
         <About ref={aboutRef} />
+      
         <Skilss ref={skillsRef} />
         <Experience ref={experienceRef} />
         <Work ref={workRef} />

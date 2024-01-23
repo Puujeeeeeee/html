@@ -9,7 +9,7 @@ function Footer() {
             .svg"
               alt=""
             />
-            <p>2023 | Designed and coded with ❤️️ by Sagar Shah</p>
+            <p>2023 | Designed and coded with ❤️️ by B.Purevsambuu</p>
           </div>
         </div>
       </div>

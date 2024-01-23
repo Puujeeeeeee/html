@@ -36,8 +36,8 @@ function Experience() {
     },
   ];
   return (
-    <div className="Experience py-24 px-20 flex-col justify-center items-center bg-gray-100">
-      <div className="flex px-8 py-0 flex-col justify-center items-center gap-12 self-stretch mb-8">
+    <div className="Experience py-24 px-20 flex-col justify-center items-center bg-gray-100 max-md:flex-col max-md:items-start max-md:justify-center max-md:px-0 ">
+      <div className="flex px-8 py-0 flex-col justify-center items-center gap-12 self-stretch mb-8 ">
         <Fiskill></Fiskill>
         <div className="flex-col items-start gap-12">
           <div className="flex flex-col justfify-center items-center my-10 ">

@@ -7,7 +7,7 @@ function About() {
           <div className="Roww flex flex-col justify-center items-center"></div>
         </div>
 
-        <div className="flex items-start gap-12 flex-no-wrap max-md:flex-col ">
+        <div className="flex items-start gap-12 flex-no-wrap max-md:flex-col max-md:items-center max-md:justify-center ">
           <div className="flex min-w-[444px] flex-col ">
             {" "}
             <img src="ulaanaa.png" alt="" />

@@ -1,4 +1,5 @@
 import Fiskill from "./button/Fiskill";
+import Technologie from "./button/Technologu";
 function Work() {
   return (
     <div className="flex py-28 px-20 flex-col items-center justify-center">
@@ -9,11 +10,14 @@ function Work() {
             Some of the noteworthy projects I have built:
           </h1>
         </div>
+        <div className="hidden max-md:flec-col">
+          <img src="he.png" alt="" />
+        </div>
         <div className="flex   items-start rounded-2xl shadow-xl">
           <div className="w-[50%] flex">
             <div className="bg-gray-200  ">
               <div className="flex items-center justify-center p-7 ">
-                <img src="he.png" alt="" />
+                <img className="max-md:hidden" src="he.png" alt="" />
               </div>
             </div>
           </div>
@@ -24,6 +28,10 @@ function Work() {
               nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
               in faucibus orci luctus et ultrices posuere cubilia curae.
             </p>
+            <div className="flex flex-wrap gap-2 justify-center items-center">
+              {" "}
+              <Technologie></Technologie>
+            </div>
           </div>
         </div>
         <div className="flex  rounded-2xl items-start shadow-xl">
@@ -34,6 +42,10 @@ function Work() {
               nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
               in faucibus orci luctus et ultrices posuere cubilia curae.
             </p>
+            <div className="flex flex-wrap gap-2 justify-center items-center">
+              {" "}
+              <Technologie></Technologie>
+            </div>
           </div>
           <div className="w-[50%] flex">
             <div className="bg-gray-200  ">
@@ -43,7 +55,7 @@ function Work() {
             </div>
           </div>
         </div>
-        <div className="flex  items-start shadow-xl rounded-2xl">
+        <div className="flex  items-start shadow-xl rounded-2xl ">
           <div className="w-[50%] flex">
             <div className="bg-gray-200  ">
               <div className="flex items-center justify-center p-7 ">
@@ -58,6 +70,10 @@ function Work() {
               nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis
               in faucibus orci luctus et ultrices posuere cubilia curae.
             </p>
+            <div className="flex flex-wrap gap-2 justify-center items-center">
+              {" "}
+              <Technologie></Technologie>
+            </div>
           </div>
         </div>
       </div>
