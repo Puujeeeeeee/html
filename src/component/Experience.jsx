@@ -1,3 +1,4 @@
+import Fiskill from "./button/Fiskill";
 function Experience() {
   const experiences = [
     {
@@ -37,6 +38,7 @@ function Experience() {
   return (
     <div className="Experience py-24 px-20 flex-col justify-center items-center bg-gray-100">
       <div className="flex px-8 py-0 flex-col justify-center items-center gap-12 self-stretch mb-8">
+        <Fiskill></Fiskill>
         <div className="flex-col items-start gap-12">
           <div className="flex flex-col justfify-center items-center my-10 ">
             <p className="text-xl font-normal">

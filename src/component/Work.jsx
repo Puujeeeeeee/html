@@ -1,8 +1,9 @@
-import Technologie from "./button/Technologu";
+import Fiskill from "./button/Fiskill";
 function Work() {
   return (
     <div className="flex py-28 px-20 flex-col items-center justify-center">
       <div className="flex py-0 px-16 flex-col justify-center items-center rounded-2xl   gap-12">
+        <Fiskill></Fiskill>
         <div className="flex flex-col justify-center  items-center">
           <h1 className="text-xl">
             Some of the noteworthy projects I have built:

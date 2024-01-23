@@ -1,17 +1,20 @@
 import Fiskill from "./button/Fiskill";
 function About() {
   return (
-    <div className="About flex justify-between py-24 px-20 bg-gray-100 ">
-      <div className="Container flex py-0 px-8 items-center gap-12 ">
-        <div className=" Row flex flex-col items-start gap-4">
+    <div className="About flex justify-between py-24 px-20 bg-gray-100  max-md:items-center ">
+      <div className="Container flex py-0 px-8 items-center gap-12  ">
+        <div className=" Row flex flex-col items-start gap-4 ">
           <div className="Roww flex flex-col justify-center items-center"></div>
         </div>
 
-        <div className="flex items-start gap-12 flex-no-wrap">
+        <div className="flex items-start gap-12 flex-no-wrap max-md:flex-col ">
           <div className="flex min-w-[444px] flex-col ">
+            {" "}
             <img src="ulaanaa.png" alt="" />
           </div>
           <div className="flex min-w-[444px] flex-col items-start gap-6  ">
+            {" "}
+            {/* <Fiskill></Fiskill> */}
             <h1 className="text-3xl font-semibold leading-9">
               Curious about me? Here you have it:
             </h1>

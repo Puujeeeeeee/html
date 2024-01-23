@@ -1,7 +1,9 @@
+import Fiskill from "./button/Fiskill";
 function Contact() {
   return (
     <div className="py-24 px-20 flex flex-col justify-center items-center">
       <div className="flex px-8 py-0 flex-col justify-center gap-12 items-center">
+        <Fiskill></Fiskill>
         <div className="flex felx-col items-start gap-4"></div>
         <div className=" flex flex-col justify-center items-center">
           <p className="text-xl font-normal leading-7 flex flex-wrap w-[500px]">

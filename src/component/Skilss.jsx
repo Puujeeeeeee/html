@@ -1,3 +1,4 @@
+import Fiskill from "./button/Fiskill";
 function Skills() {
   const skillsData = [
     { src: "icon-express.png", text: "Express" },
@@ -11,19 +12,17 @@ function Skills() {
     { src: "icon-tailwindcss.png", text: "Tailwindcss" },
     { src: "icon-figma.png", text: "Figma" },
     { src: "icon-cypress.png", text: "Cypress" },
-    { src: "icon-react.png", text: "React" },
+    { src: "icon-sass.png", text: "Sass" },
     { src: "icon-storybook.png", text: "Storybook" },
     { src: "icon-git.png", text: "Git" },
     { src: "icon-socket.png", text: "Socket" },
     { src: "icon-nest.png", text: "Nest" },
-    // Avoid duplicate entries in your data
-    // { src: "icon-typescript.png", text: "TypeScript" },
-    // { src: "icon-react.png", text: "React" },
   ];
 
   return (
     <div className="flex flex-col justify-center items-center py-12 px-6 md:px-20">
       <div className="flex flex-col items-center gap-8">
+        <Fiskill></Fiskill>
         <div className="flex flex-col items-start gap-4">
           <h2 className="text-2xl font-normal leading-7">
             The skills, tools, and technologies I am really good at:
