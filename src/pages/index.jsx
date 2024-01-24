@@ -24,15 +24,15 @@ export default function Home() {
       <div className="max-w-[1440px] ">
         <Head onClick={handleClick}></Head>
 
-        <Hero />
+        {/* <Hero />
         <About ref={Ref} />
 
         <Skilss onClick={handleClick}></Skilss>
         <Experience ref={experienceRef} />
         <Work ref={workRef} />
-        <Contact ref={contactRef} />
+        <Contact ref={contactRef} /> */}
       </div>
-      <Footer />
+    {/* <Footer />   */}
     </div>
   );
 }

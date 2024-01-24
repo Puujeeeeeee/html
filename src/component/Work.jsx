@@ -4,8 +4,8 @@ import Technologie from "./button/Technologu";
 
 function Work() {
   return (
-    <div className="flex py-8 px-4 flex-col items-center justify-center ">
-      <div className="flex py-0 px-2 flex-col justify-center items-center rounded-2xl gap-4">
+    <div className="flex py-24 px-20 flex-col items-center justify-center ">
+      <div className="flex py-0 px-2 flex-col justify-center items-center rounded-2xl gap-8">
         <Fiskill />
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">

@@ -1,11 +1,11 @@
 function Hero() {
   return (
-    <div className="flex-col flex md:flex-row gap-12 py-8 px-4 md:px-20">
-      <div className="flex flex-col max-w-full md:max-w-3xl justify-center gap-6  max-md:items-center max-md:justify-center max-md:px-10 relative ">
-        <h1 className="text-4xl md:text-6xl font-bold max-md:items-start ">
+    <div className="flex-col flex sm:flex-row gap-4 sm:gap-12 py-8 px-4 sm:px-20">
+      <div className="flex flex-col max-w-full sm:max-w-3xl justify-center gap-4 sm:items-center sm:justify-center sm:px-4 relative">
+        <h1 className="text-2xl sm:text-4xl font-bold sm:items-start">
           Hi, I’m Puujee 👋
         </h1>
-        <p className="text-base leading-6 items-start text-gray-500">
+        <p className="text-sm sm:text-base leading-6 items-start text-gray-500">
           I'm a full stack developer (React.js & Node.js) with a focus on
           creating exceptional digital experiences that are fast, accessible,
           visually appealing, and responsive. Even though I have been creating
@@ -13,33 +13,33 @@ function Hero() {
           something new.
         </p>
 
-        <div className="flex flex-col md:flex-row   items-center max-md:items-start gap-2">
-          <div className="flex  gap-2">
+        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
+          <div className="flex gap-2">
             <img className="icon-xs font-normal" src="icon.svg" alt="" />
             <span>Ahmedabad, India</span>
           </div>
 
           <div className="flex items-center gap-2">
             <img src="icon.svg" alt="" />
-            <p className="text-base">Available for new projects</p>
+            <p className="text-xs sm:text-base">Available for new projects</p>
           </div>
         </div>
 
-        <div className="flex items-start gap-5">
+        <div className="flex items-start gap-2">
           <img src="ff.svg" alt="" />
           <img src="aa.svg" alt="" />
           <img src="xx.svg" alt="" />
         </div>
       </div>
 
-      <div className="flex min-w-full md:min-w-96 flex-col justify-center items-end max-md:items-center ">
+      <div className="flex min-w-full sm:min-w-96 flex-col justify-center items-end sm:items-center relative sm:mt-4">
         <div>
           <img
-            className="w-[280px] h-[320px] absolute z-20 border-slate-200 border-solid "
+            className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] absolute z-20 border-slate-200 border-solid "
             src="Pic.png"
-            alt=" "
+            alt=""
           />
-          <div className="w-[280px] h-[320px] relative bg-slate-200 m-7 z-10"></div>
+          <div className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] relative bg-slate-200 m-4 sm:m-7 z-10"></div>
         </div>
       </div>
     </div>
