@@ -8,6 +8,7 @@ const technologieData = [
   { id: 7, name: "Storybook" },
   { id: 8, name: "React" },
   { id: 9, name: "TypeScript" },
+  { id: 10, name: "CSS" },
 ];
 
 function TechnologieItem({ name }) {

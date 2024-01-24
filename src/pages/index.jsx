@@ -9,7 +9,7 @@ import Contact from "@/component/GetInTouch";
 import Footer from "@/component/Footer";
 
 export default function Home() {
-  const aboutRef = useRef(null);
+  const Ref = useRef(null);
   const skillsRef = useRef(null);
   const experienceRef = useRef(null);
   const workRef = useRef(null);
@@ -20,18 +20,14 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center max-md:items-center max-md:justify-center">
-      <div className="max-w-[1440px] min-h-[300px]">
-        <button onClick={() => handleClick(aboutRef)}></button>
-        <button onClick={() => handleClick(skillsRef)}></button>
-        <button onClick={() => handleClick(skillsRef)}></button>
-        <button onClick={() => handleClick(skillsRef)}></button>
-        <Head></Head>
+    <div className="flex flex-col items-center ">
+      <div className="max-w-[1440px] ">
+        <Head onClick={handleClick}></Head>
 
         <Hero />
-        <About ref={aboutRef} />
-      
-        <Skilss ref={skillsRef} />
+        <About ref={Ref} />
+
+        <Skilss onClick={handleClick}></Skilss>
         <Experience ref={experienceRef} />
         <Work ref={workRef} />
         <Contact ref={contactRef} />

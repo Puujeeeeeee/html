@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div className="flex-col flex md:flex-row gap-12 py-8 px-4 md:px-20">
-      <div className="flex flex-col max-w-full md:max-w-3xl justify-center gap-6  max-md:items-center max-md:justify-center max-md:px-10 relative">
+      <div className="flex flex-col max-w-full md:max-w-3xl justify-center gap-6  max-md:items-center max-md:justify-center max-md:px-10 relative ">
         <h1 className="text-4xl md:text-6xl font-bold max-md:items-start ">
           Hi, I’m Puujee 👋
         </h1>
@@ -32,14 +32,14 @@ function Hero() {
         </div>
       </div>
 
-      <div className="flex min-w-full md:min-w-96 flex-col justify-center items-end max-md:items-center">
+      <div className="flex min-w-full md:min-w-96 flex-col justify-center items-end max-md:items-center ">
         <div>
           <img
-            className="w-[280px] h-[320px] absolute "
-            src="man.jpeg"
+            className="w-[280px] h-[320px] absolute z-20 border-slate-200 border-solid "
+            src="Pic.png"
             alt=" "
           />
-          <div className="w-[280px] h-[320px] relative bg-slate-400 m-7"></div>
+          <div className="w-[280px] h-[320px] relative bg-slate-200 m-7 z-10"></div>
         </div>
       </div>
     </div>

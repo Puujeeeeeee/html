@@ -1,5 +1,5 @@
 import Fiskill from "./button/Fiskill";
-function Skills() {
+function Skills(props) {
   const skillsData = [
     { src: "icon-express.png", text: "Express" },
     { src: "icon-javscript.png", text: "JavaScript" },
