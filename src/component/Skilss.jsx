@@ -1,6 +1,6 @@
 import Fiskill from "./button/Fiskill";
 
-function Skills(props) {
+function Skills({ skilssRef }) {
   const skillsData = [
     { src: "icon-express.png", text: "Express" },
     { src: "icon-javscript.png", text: "JavaScript" },
@@ -21,21 +21,27 @@ function Skills(props) {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-8 px-4 sm:px-8">
-      <div className="flex flex-col items-center gap-6 ">
-        <Fiskill></Fiskill>
-        <div className="flex flex-col items-start gap-4">
-          <h2 className="text-xl sm:text-2xl font-normal leading-6 sm:leading-7">
-            The skills, tools, and technologies I am really good at:
-          </h2>
-        </div>
-        <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-20">
-          {skillsData.map((skill, i) => (
-            <div key={i} className="flex flex-col items-center gap-2">
-              <img src={skill.src} alt={skill.text} className="w-16 h-16 sm:w-20 sm:h-20" />
-              <p className="text-xs sm:text-sm">{skill.text}</p>
-            </div>
-          ))}
+    <div ref={skilssRef}>
+      <div className="flex flex-col justify-center items-center py-8 px-4 sm:px-8">
+        <div className="flex flex-col items-center gap-6 ">
+          <Fiskill></Fiskill>
+          <div className="flex flex-col items-start gap-4">
+            <h2 className="text-xl sm:text-2xl font-normal leading-6 sm:leading-7">
+              The skills, tools, and technologies I am really good at:
+            </h2>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-20">
+            {skillsData.map((skill, i) => (
+              <div key={i} className="flex flex-col items-center gap-2">
+                <img
+                  src={skill.src}
+                  alt={skill.text}
+                  className="w-16 h-16 sm:w-20 sm:h-20"
+                />
+                <p className="text-xs sm:text-sm">{skill.text}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

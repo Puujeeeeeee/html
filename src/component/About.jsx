@@ -1,9 +1,8 @@
 import Fiskill from "./button/Fiskill";
 import { forwardRef } from "react";
-function About({ props }, ref) {
+function About({ aboutRef }) {
   return (
-    <div ref={ref}>
-      {props}
+    <div ref={aboutRef}>
       <div className="About flex justify-between py-24 px-20 bg-gray-100  max-md:items-center ">
         <div className="Container flex py-0 px-8 items-center gap-12  ">
           <div className=" Row flex flex-col items-start gap-4 ">

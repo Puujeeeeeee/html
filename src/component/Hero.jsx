@@ -1,8 +1,8 @@
 function Hero() {
   return (
     <div className="flex-col flex sm:flex-row gap-4 sm:gap-12 py-8 px-4 sm:px-20">
-      <div className="flex flex-col max-w-full sm:max-w-3xl justify-center gap-4 sm:items-center sm:justify-center sm:px-4 relative">
-        <h1 className="text-2xl sm:text-4xl font-bold sm:items-start">
+      <div className="flex flex-col max-w-full sm:max-w-3xl  gap-4 sm:items-center sm:justify-center sm:px-4 relative">
+        <h1 className="text-2xl sm:text-4xl font-bold items-start">
           Hi, I’m Puujee 👋
         </h1>
         <p className="text-sm sm:text-base leading-6 items-start text-gray-500">
