@@ -34,7 +34,7 @@ const Head = ({
         <div className="flex max-md:flex-row px-20 py-6  justify-between sticky top-0 bg-slate-100 z-10 gap-16 max-md:p-0 dark:bg-gray-800 ">
           <h1 className="leading-9 max-sm:hidden text-3xl">&#60;SS/&#62;</h1>
           <div className="flex items-center max-sm:hidden">
-            <ul className="flex items-center gap-4 md:gap-9 dark:color-white">
+            <ul className="flex items-center gap-4 md:gap-9 dark:color-white-800">
               <li className="text-gray-500 hover:text-sky-500">
                 <button onClick={aboutHandleClick}>About</button>
               </li>
