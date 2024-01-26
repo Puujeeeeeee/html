@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center max-sm:items-center  ">
       <div className="max-w-[1440px] ">
         <Head
           aboutHandleClick={aboutHandleClick}
@@ -45,28 +45,29 @@ export default function Home() {
         <Work workRef={workRef} />
         <Contact contactRef={contactRef} />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
 
-// // import { useRef } from "react";
-
-// // export default function Home() {
-// //   const ref = useRef(null);
-// //   const handleClick = () => {
-// //     ref.current?.scrollIntoView({ behavior: "smooth" });
-// //   };
-
-// //   return (
-// //     <div>
-// //       <button onClick={handleClick}>Scroll to element</button>
-// //       <div style={{ height: "155rem" }} />
-// //       <div ref={ref}>Some content here</div>
-// //       <div style={{ height: "155rem" }} />
-// //     </div>
-// //   );
-// // }
-
-// pages/index.js
-// pages/index.js
+// import { useEffect, useState } from "react";
+// export default function Home() {
+//   const [isDarkMode, setDarkMode] = useState(false);
+//   useEffect(() => {
+//     const isDark = localStorage.getItem("darkMode") === "true";
+//     setDarkMode(isDark);
+//   }, []);
+//   useEffect(() => {
+//     document.documentElement.classList.toggle("dark", isDarkMode);
+//     localStorage.setItem("darkMode", isDarkMode);
+//     localStorage.setItem("hello", "leap");
+//   }, [isDarkMode]);
+//   return (
+//     <div>
+//       <button onClick={() => setDarkMode((prevState) => !prevState)}>
+//         switch dark mode{" "}
+//       </button>
+//       <p className="dark:bg-green-200">{isDarkMode ? "dark" : "white"}</p>
+//     </div>
+//   );
+// }

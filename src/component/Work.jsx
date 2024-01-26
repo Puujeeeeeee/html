@@ -13,10 +13,10 @@ function Work() {
           </h1>
         </div>
 
-        <div className="flex flex-col md:flex-row items-start rounded-2xl shadow-xl max-md:flex-col max-md:items-center">
+        <div className="flex flex-col md:flex-row items-start rounded-2xl shadow-xl max-md:flex-col max-md:items-center dark:bg-gray-800">
           <div className="w-full md:w-[50%]">
             <div className="bg-gray-200">
-              <div className="flex items-center justify-center p-4 md:p-7">
+              <div className="flex items-center justify-center p-7 md:p-7 dark:bg-gray-600">
                 <img className="max-w-full" src="he.png" alt="" />
               </div>
             </div>
@@ -35,8 +35,8 @@ function Work() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-start rounded-2xl shadow-xl max-md:items-center max-md:flex-col-reverse">
-          <div className="flex flex-col p-4 md:p-7 w-full md:w-[50%] items-center gap-4">
+        <div className="flex flex-col md:flex-row items-start rounded-2xl shadow-xl max-md:items-center max-md:flex-col-reverse dark:bg-gray-800 ">
+          <div className="flex flex-col p-4 md:p-7 w-full md:w-[50%] items-center gap-4 ">
             <h1 className="text-lg md:text-xl lg:text-2xl font-semibold items-start">
               Fiskil
             </h1>
@@ -51,16 +51,16 @@ function Work() {
           </div>
           <div className="w-full md:w-[50%]">
             <div className="bg-gray-200">
-              <div className="flex items-center justify-center p-4 md:p-7">
-                <img className="max-w-full" src="he.png" alt="" />
+              <div className="flex items-center justify-center p-7 md:p-10  dark:bg-gray-600">
+                <img className="max-w-full shadow-xl" src="he.png" alt="" />
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-start rounded-2xl shadow-xl max-md:flex-col max-md:items-center">
+        <div className="flex flex-col md:flex-row items-start rounded-2xl shadow-xl max-md:flex-col max-md:items-center dark:bg-gray-800">
           <div className="w-full md:w-[50%]">
             <div className="bg-gray-200">
-              <div className="flex items-center justify-center p-4 md:p-7">
+              <div className="flex items-center justify-center p-7 md:p-10 dark:bg-gray-600">
                 <img className="max-w-full" src="he.png" alt="" />
               </div>
             </div>

@@ -1,7 +1,7 @@
 function Hero() {
   return (
-    <div className="flex-col flex sm:flex-row gap-4 sm:gap-12 py-8 px-4 sm:px-20">
-      <div className="flex flex-col max-w-full sm:max-w-3xl  gap-4 sm:items-center sm:justify-center sm:px-4 relative">
+    <div className="flex-col flex sm:flex-row gap-4  py-8 px-4 sm:px-20">
+      <div className="flex flex-col max-w-full sm:max-w-3xl  gap-4 items-start justify-center">
         <h1 className="text-2xl sm:text-4xl font-bold items-start">
           Hi, I’m Puujee 👋
         </h1>
@@ -13,7 +13,7 @@ function Hero() {
           something new.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2">
+        <div className="flex flex-col  items-start gap-2">
           <div className="flex gap-2">
             <img className="icon-xs font-normal" src="icon.svg" alt="" />
             <span>Ahmedabad, India</span>
@@ -35,7 +35,7 @@ function Hero() {
       <div className="flex min-w-full sm:min-w-96 flex-col justify-center items-end sm:items-center relative sm:mt-4">
         <div>
           <img
-            className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] absolute z-20 border-slate-200 border-solid "
+            className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] absolute z-20 border-slate-200 border-solid max-sm:justify-center max-sm:items:center"
             src="Pic.png"
             alt=""
           />
