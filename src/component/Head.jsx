@@ -41,7 +41,7 @@ const Head = ({
               <li className="text-gray-500 hover:text-sky-500">
                 <button onClick={skilssHandleClick}>Skills</button>
               </li>
-              <li className="text-gray-500 hover:text-sky-500">
+              <li className="text-gray-500 hover:text-sky-600">
                 <button onClick={experienceHandleClick}>Experience</button>
               </li>
               <li className="text-gray-500 hover:text-sky-500">
