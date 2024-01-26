@@ -44,7 +44,7 @@ const Head = ({
               <li className="text-gray-500 hover:text-sky-600">
                 <button onClick={experienceHandleClick}>Experience</button>
               </li>
-              <li className="text-gray-500 hover:text-sky-500">
+              <li className="text-gray-500 hover:text-sky-600">
                 <button onClick={contactHandleClick}>Contact</button>
               </li>
               <div className="flex gap-2 md:gap-4 items-center">
