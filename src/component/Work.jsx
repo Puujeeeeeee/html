@@ -5,7 +5,7 @@ import Technologie from "./button/Technologu";
 function Work() {
   return (
     <div className="flex py-24 px-20 flex-col items-center justify-center ">
-      <div className="flex py-0 px-2 flex-col justify-center items-center rounded-2xl gap-8">
+      <div className="flex py-0 px-2 flex-col justify-center items-center rounded-2xl gap-12">
         <Fiskill />
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
@@ -17,7 +17,11 @@ function Work() {
           <div className="w-full md:w-[50%]">
             <div className="bg-gray-200">
               <div className="flex items-center justify-center p-7 md:p-7 dark:bg-gray-600">
-                <img className="max-w-full" src="he.png" alt="" />
+                <img
+                  className="max-w-full p-4 rounded-xl"
+                  src="he.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>

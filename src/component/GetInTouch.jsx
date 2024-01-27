@@ -12,7 +12,7 @@ function Contact({ contactRef }) {
               developer, have a query, or simply want to connect.
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-4 ">
+          <div className="flex flex-col justify-center items-center gap-4 cursor-pointer ">
             <div className="flex justify-center items-center gap-5 ">
               <img src="ssms.svg" alt="" />
               <p className="text-3xl">prevsambuub@gmail.com</p>
@@ -28,8 +28,8 @@ function Contact({ contactRef }) {
             <div className="flex felx-col items-start gap-4">
               <p>You may also find me on these platforms!</p>
             </div>
-            <div className="flex flex-col justify-center items-center">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-col justify-center items-center ">
+              <div className="flex items-center gap-3 ">
                 <img src="ff.svg" alt="" />
                 <img src="aa.svg" alt="" />
                 <img src="icon.svg" alt="" />

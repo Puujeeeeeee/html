@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="flex justify-center items-center w-full py-6 flex-col bg-gray-100">
+    <div className="flex justify-center items-center w-full py-6 flex-col bg-gray-100 dark:bg-gray-600">
       <div className="flex px-8 py-0 flex-col justify-center items-center gap-16">
         <div className="flex justify-center items-center">
           <div className="felx justify-center items-center gap-2">

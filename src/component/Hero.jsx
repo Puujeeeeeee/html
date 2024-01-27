@@ -39,7 +39,7 @@ function Hero() {
             src="Pic.png"
             alt=""
           />
-          <div className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] relative bg-slate-200 m-4 sm:m-7 z-10"></div>
+          <div className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] relative bg-slate-200 m-4 sm:m-7 z-10 dark:bg-gray-600"></div>
         </div>
       </div>
     </div>

@@ -31,8 +31,10 @@ const Head = ({
     }, [isDarkMode]);
     return (
       <div>
-        <div className="flex max-md:flex-row px-20 py-6  justify-between sticky top-0 bg-slate-100 z-10 gap-16 max-md:p-0 dark:bg-gray-800 ">
-          <h1 className="leading-9 max-sm:hidden text-3xl">&#60;SS/&#62;</h1>
+        <div className="flex  px-20 py-6  justify-between sticky top-0 bg-slate-100 z-10 gap-16  dark:bg-gray-800 max-sm:flex max-sm:flex-col max-sm:items-start">
+          <h1 className="leading-9 max-sm:hidden text-3xl max-sm:flex ">
+            &#60;SS/&#62;
+          </h1>
           <div className="flex items-center max-sm:hidden">
             <ul className="flex items-center gap-4 md:gap-9 dark:color-white-800">
               <li className="text-gray-500 hover:text-sky-500">
@@ -47,15 +49,15 @@ const Head = ({
               <li className="text-gray-500 hover:text-sky-600">
                 <button onClick={contactHandleClick}>Contact</button>
               </li>
-              <div className="flex gap-2 md:gap-4 items-center">
+              <div className="flex gap-2 md:gap-4 items-center cursor-pointer">
                 <img
                   onClick={() => setDarkMode((prevState) => !prevState)}
-                  src="sunny.svg"
+                  src={isDarkMode ? "moon.svg" : "sunny.svg"}
                   alt="Sun Icon"
                 />
                 <button
                   onClick={handleDownload}
-                  className="bg-black text-white rounded-lg text-xs px-2 py-2"
+                  className="bg-black text-white rounded-lg text-xs px-2 py-2 dark:bg-white dark:text-black"
                 >
                   Download CV
                 </button>
@@ -63,20 +65,20 @@ const Head = ({
             </ul>
           </div>
         </div>
-        <div className="hidden max-sm:flex h-[100vh] justify-end">
-          <div className="h-[10vh] p-3 flex  w-[100vw] justify-between relative ">
+        <div className="hidden h-[100vh] justify-end dark:bg-black overflow-hidden ">
+          <div className="h-[10vh] p-3 flex  w-[100vw] justify-between relative  ">
             <div></div>
             <button
               onClick={toggleMenu}
-              className="h-[40px] w-[40px] border-red-300 rounded-md border-[2px] text-center items-center justify-center"
+              className="h-[40px] w-[40px] justify-center overflow-hidden"
             >
               <img src="3zuraas.svg" alt="" />
             </button>
           </div>
 
           {showMenu && (
-            <div className="bg-black bg-opacity-30 w-[110vw] h-[100vh]  absolute  flex justify-end">
-              <div className="bg-white h-[100vh] w-[85%] absolute p-8  shadow-2xl">
+            <div className="bg-black bg-opacity-30 w-[110vw] h-[100vh]  absolute  flex justify-end dark:bg-white">
+              <div className="bg-white h-[100vh] w-[85%] absolute p-8  shadow-2xl dark:bg-black">
                 <div className="flex justify-between">
                   <h2 className="text-4xl font-bold ">&#60;SS/&#62;</h2>
                   <button
@@ -94,7 +96,7 @@ const Head = ({
                   <li className="text-gray-500 hover:text-sky-500">
                     <button onClick={skilssHandleClick}>Skills</button>
                   </li>
-                  <li className="text-gray-500 hover:text-sky-500">
+                  <li className="text-gray-500 hover:text-sky-500 ">
                     <button onClick={experienceHandleClick}>Experience</button>
                   </li>
                   <li className="text-gray-500 hover:text-sky-500">
@@ -112,7 +114,7 @@ const Head = ({
 
                   <button
                     onClick={handleDownload}
-                    className="bg-black w-[380px] rounded-md justify-center text-white flex py-1.5 px-4 items-center gap "
+                    className="bg-black w-[380px] rounded-md justify-center text-white flex py-1.5 px-4 items-center gap  "
                   >
                     Download CV
                   </button>

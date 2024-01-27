@@ -7,6 +7,7 @@ import Experience from "@/component/Experience";
 import Work from "@/component/Work";
 import Contact from "@/component/GetInTouch";
 import Footer from "@/component/Footer";
+import Top from "@/component/Top";
 
 export default function Home() {
   const aboutRef = useRef(null);
@@ -29,7 +30,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center max-sm:items-center  ">
-      <div className="max-w-[1440px] ">
+      <div className="max-w-[1440px] max-sm-w-[375px] ">
         <Head
           aboutHandleClick={aboutHandleClick}
           skilssHandleClick={skilssHandleClick}
@@ -37,13 +38,14 @@ export default function Home() {
           contactHandleClick={contactHandleClick}
         ></Head>
 
-        <Hero />
-        <About aboutRef={aboutRef} />
+        {/* <Hero /> */}
+        {/* <About aboutRef={aboutRef} />
 
         <Skilss skilssRef={skilssRef} />
         <Experience experienceRef={experienceRef} />
         <Work workRef={workRef} />
-        <Contact contactRef={contactRef} />
+        <Top></Top>
+        <Contact contactRef={contactRef} /> */}
       </div>
       {/* <Footer /> */}
     </div>

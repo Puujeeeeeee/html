@@ -2,7 +2,7 @@ import Fiskill from "./button/Fiskill";
 
 function Skills({ skilssRef }) {
   const skillsData = [
-    { src: "icon-express.png", text: "Express" },
+    { src: "icon-sass.png", text: "Express" },
     { src: "icon-javscript.png", text: "JavaScript" },
     { src: "icon-nextjs.png", text: "Next.js" },
     { src: "icon-react.png", text: "React" },
@@ -16,7 +16,7 @@ function Skills({ skilssRef }) {
     { src: "icon-sass.png", text: "Sass" },
     { src: "icon-storybook.png", text: "Storybook" },
     { src: "icon-git.png", text: "Git" },
-    { src: "icon-socket.png", text: "Socket" },
+    { src: "icon-nextjs.png", text: "Socket" },
     { src: "icon-nest.png", text: "Nest" },
   ];
 
