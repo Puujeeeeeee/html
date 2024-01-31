@@ -29,7 +29,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center max-sm:items-center  ">
+    <div className="flex flex-col items-center max-sm:items-center ">
       <div className="max-w-[1440px] max-sm-w-[375px] ">
         <Head
           aboutHandleClick={aboutHandleClick}
@@ -38,16 +38,16 @@ export default function Home() {
           contactHandleClick={contactHandleClick}
         ></Head>
 
-        {/* <Hero /> */}
-        {/* <About aboutRef={aboutRef} />
+        <Hero />
+        <About aboutRef={aboutRef} />
 
         <Skilss skilssRef={skilssRef} />
         <Experience experienceRef={experienceRef} />
         <Work workRef={workRef} />
         <Top></Top>
-        <Contact contactRef={contactRef} /> */}
+        <Contact contactRef={contactRef} />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

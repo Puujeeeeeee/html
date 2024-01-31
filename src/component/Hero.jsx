@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="flex-col flex sm:flex-row gap-4  py-8 px-4 sm:px-20">
+    <div className=" justify-center items-center flex gap-4  py-8 px-4  max-sm:column max-sm:flex-col-reverse max-sm:px-20 max-sm:items-center max-sm:justify-center">
       <div className="flex flex-col max-w-full sm:max-w-3xl  gap-4 items-start justify-center">
         <h1 className="text-2xl sm:text-4xl font-bold items-start">
           Hi, I’m Puujee 👋
@@ -14,8 +14,12 @@ function Hero() {
         </p>
 
         <div className="flex flex-col  items-start gap-2">
-          <div className="flex gap-2">
-            <img className="icon-xs font-normal" src="icon.svg" alt="" />
+          <div className="flex gap-2 ">
+            <img
+              className="icon-xs font-normal max-sm:hidden"
+              src="icon.svg"
+              alt=""
+            />
             <span>Ahmedabad, India</span>
           </div>
 
@@ -35,11 +39,11 @@ function Hero() {
       <div className="flex min-w-full sm:min-w-96 flex-col justify-center items-end sm:items-center relative sm:mt-4">
         <div>
           <img
-            className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] absolute z-20 border-slate-200 border-solid max-sm:justify-center max-sm:items:center"
+            className=" sm:w-[280px] sm:h-[320px] absolute z-20 border-slate-200 border-solid max-sm:justify-center max-sm:items:center"
             src="Pic.png"
             alt=""
           />
-          <div className="w-[200px] h-[220px] sm:w-[280px] sm:h-[320px] relative bg-slate-200 m-4 sm:m-7 z-10 dark:bg-gray-600"></div>
+          <div className=" sm:w-[280px] sm:h-[320px] relative bg-slate-200 m-4 sm:m-7 z-10 dark:bg-gray-600"></div>
         </div>
       </div>
     </div>
