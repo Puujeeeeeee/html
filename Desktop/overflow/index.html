@@ -1,45 +1,73 @@
 <!DOCTYPE html>
-<html lang="mn">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Монголын Аялал Жуулчлал - Нүүр</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Halloween Countdown</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #1a1a1a;
+            color: #ff7518;
+            font-family: "Courier New", monospace;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.2em;
+        }
+
+        #countdown {
+            font-size: 2em;
+            color: #ffdd57;
+        }
+
+        .ghost {
+            font-size: 8em;
+            margin-top: 0.5em;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        /* Keyframes for ghost animation */
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Нүүр</a></li>
-                <li><a href="places.html">Үзэсгэлэнт Газар</a></li>
-                <li><a href="clothing.html">Аялалын Хувцас</a></li>
-                <li><a href="resorts.html">Амралтын Газар</a></li>
-                <li><a href="contact.html">Холбоо Барих</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h1>Монголын Аялал Жуулчлал</h1>
-            <p>Монгол улсын үзэсгэлэнт газруудыг танилцуулж байна.</p>
-            <div class="sub-sections">
-                <article>
-                    <h3>Танилцуулга</h3>
-                    <p>Монголын аялал жуулчлалын ерөнхий танилцуулга.</p>
-                </article>
-                <article>
-                    <h3>Түүх</h3>
-                    <p>Монголын аялал жуулчлалын түүхэн замнал.</p>
-                </article>
-                <article>
-                    <h3>Соёл</h3>
-                    <p>Монголын соёлын өв.</p>
-                </article>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Монголын Аялал Жуулчлал</p>
-    </footer>
+
+    <div>
+        <h1>🎃 Halloween Countdown 🎃</h1>
+        <div id="countdown">Loading...</div>
+        <div class="ghost">👻</div>
+    </div>
+
+    <script>
+        function countdownToHalloween() {
+            const now = new Date();
+            const currentYear = now.getFullYear();
+            const halloween = new Date(currentYear, 9, 31); // October 31st
+
+            // Check if Halloween has already passed this year
+            if (now > halloween) {
+                halloween.setFullYear(currentYear + 1); // Set Halloween to next year
+            }
+
+            const timeDiff = halloween - now;
+            const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+
+            document.getElementById("countdown").textContent = `${days} Days Until Halloween!`;
+        }
+
+        countdownToHalloween();
+        setInterval(countdownToHalloween, 86400000); // Update every 24 hours
+    </script>
 </body>
 </html>
